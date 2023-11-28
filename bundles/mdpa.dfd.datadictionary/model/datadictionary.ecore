@@ -9,10 +9,10 @@
         eType="#//Behaviour" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Behaviour" eSuperTypes="../../tools.mdsd.modelingfoundations.identifier/model/identifier.ecore#//Entity">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="in" upperBound="-1" eType="#//Pin"
-        containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="out" upperBound="-1" eType="#//Pin"
-        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="inPin" upperBound="-1"
+        eType="#//Pin" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outPin" upperBound="-1"
+        eType="#//Pin" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="assignment" upperBound="-1"
         eType="#//AbstractAssignment" containment="true"/>
   </eClassifiers>
